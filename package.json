@@ -1,0 +1,33 @@
+{
+  "name": "@telemetry-js/collector-nodejs-memory",
+  "version": "0.0.6",
+  "description": "Collect Node.js memory metrics (RSS, heap and external)",
+  "license": "MIT",
+  "author": "Vincent Weevers",
+  "scripts": {
+    "test": "standard && hallmark && node test"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "@telemetry-js/match-metric-names": "^0.0.3",
+    "@telemetry-js/metric": "^0.1.2"
+  },
+  "devDependencies": {
+    "hallmark": "^3.1.0",
+    "standard": "^14.3.4",
+    "tape": "^4.9.1"
+  },
+  "repository": "telemetry-js/collector-nodejs-memory",
+  "bugs": "https://github.com/telemetry-js/collector-nodejs-memory/issues",
+  "homepage": "https://github.com/telemetry-js/collector-nodejs-memory",
+  "keywords": [
+    "metrics",
+    "measurements",
+    "telemetry"
+  ],
+  "engines": {
+    "node": ">=6"
+  }
+}
